@@ -78,6 +78,7 @@ fig = plt.figure(figsize=(16,5))
 sns.barplot(x=models['model'],y=models['numberOfCars'], color="green")
 plt.xticks(rotation=50)
 ```
+![image](image1.png)
 ```python
 df['model'].value_counts().plot(kind='bar')
 ```
