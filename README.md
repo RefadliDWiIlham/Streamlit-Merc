@@ -82,6 +82,7 @@ plt.xticks(rotation=50)
 ```python
 df['model'].value_counts().plot(kind='bar')
 ```
+![image](image2.png)
 UKURAN MESIN
 ```python
 engine = df.groupby('engineSize').count()[['tax']].sort_values(by='tax').reset_index()
