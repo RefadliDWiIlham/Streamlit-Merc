@@ -90,6 +90,7 @@ engine = engine.rename(columns={'tax':'count'})
 plt.figure(figsize=(15,5))
 sns.barplot(x=engine['engineSize'],y=engine['count'], color='green')
 ```
+![image](engineSize.png)
 DISTRIBUSI MILEAGE
 ```python
 plt.figure(figsize=(15,5))
